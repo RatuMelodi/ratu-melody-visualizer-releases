@@ -28,7 +28,7 @@ Catatan jujur:
 
 ## 2. Memasang aplikasi
 
-1. Unduh installer dari halaman rilis: <https://github.com/Satria155/ratu-melody-visualizer-releases/releases/latest>. Pilih file yang berakhiran `x64-setup.exe`.
+1. Unduh installer dari halaman rilis: <https://github.com/RatuMelodi/ratu-melody-visualizer-releases/releases/latest>. Pilih file yang berakhiran `x64-setup.exe`.
 2. Klik dua kali file itu. Windows mungkin menampilkan layar biru **"Windows protected your PC"**. Ini muncul karena aplikasi baru dan belum punya sertifikat penerbit. Klik **More info**, lalu **Run anyway**.
 3. Ikuti langkah installer sampai selesai, lalu buka **Ratu Melody Visualizer PRO** dari Start Menu.
 
