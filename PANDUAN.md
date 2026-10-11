@@ -63,13 +63,14 @@ Hal yang sering salah:
 - Kunci harus disalin utuh, dari `RMVP1.` sampai huruf terakhir, tanpa spasi atau baris tambahan.
 - Device Code harus berasal dari komputer yang akan dipakai, bukan dari komputer lain.
 
-Simpan kunci lisensi Anda di tempat yang aman.
+Simpan kunci lisensi dan nomor serinya di tempat yang aman. Nomor seri (`RM-…`) terlihat di aplikasi saat tombol **Licensed** diklik.
 
 ### Ketentuan
 
 - **Coba dulu, baru beli.** Trial 3 hari membuka semua fitur, jadi Anda bisa memastikan aplikasi berjalan baik di komputer Anda. Karena itu pembelian yang sudah diaktifkan tidak dapat dikembalikan (tidak ada refund).
 - **Satu lisensi untuk satu komputer.** Masa berlaku dihitung sejak kunci dibuat, sesuai paket yang dibeli.
-- **Ganti komputer atau instal ulang Windows.** Device Code komputer bisa berubah, sehingga kunci lama tidak diterima lagi. Kirim Device Code yang baru beserta nomor seri atau nama pembelian Anda kepada kami untuk mendapat kunci pengganti. Masa berlakunya mengikuti lisensi awal, dan lisensi di komputer lama tidak boleh dipakai lagi (hapus lewat **Licensed** → **Remove license…**).
+- **Instal ulang Windows.** Device Code dibuat dari perangkat keras komputer, jadi umumnya tidak berubah saat Windows diinstal ulang. Masukkan lagi kunci lisensi yang sama. Kalau ternyata Device Code berubah, hubungi kami.
+- **Ganti komputer.** Komputer baru punya Device Code baru, sehingga kunci lama tidak diterima di sana. Kirim Device Code yang baru beserta nomor seri lisensi Anda kepada kami untuk mendapat kunci pengganti. Masa berlakunya mengikuti lisensi awal, dan lisensi di komputer lama tidak boleh dipakai lagi (hapus lewat **Licensed** → **Remove license…**).
 - **Pembaruan.** Semua pembaruan aplikasi gratis selama lisensi masih aktif.
 
 ---
