@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
-  "notes": "First release.",
+  "version": "1.0.1",
+  "notes": "Fixes exported videos that froze on some computers. When updating, do not tick \"Delete the application data\": it removes your license. / Memperbaiki video export yang diam di beberapa komputer. Saat update, jangan centang \"Delete the application data\": lisensi akan terhapus.",
   "url": "https://github.com/RatuMelodi/ratu-melody-visualizer-releases/releases/latest"
 }
