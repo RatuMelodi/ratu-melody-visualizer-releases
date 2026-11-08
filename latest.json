@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
-  "notes": "New: tracklist, speaker pulse, beat pulse, 6 new visualizer styles, new icon; fixes the app not opening on some computers. When updating, do not tick \"Delete the application data\": it removes your license. / Baru: tracklist, speaker pulse, beat pulse, 6 gaya visualizer baru, ikon baru; memperbaiki aplikasi yang tidak bisa dibuka di beberapa komputer. Saat update, jangan centang \"Delete the application data\": lisensi akan terhapus.",
+  "version": "1.2.0",
+  "notes": "New: color grading, subscribe animation, 8D surround + 8D badge, license key backup; fixes the app not opening on older Intel processors (2nd/3rd gen). When updating, do not tick \"Delete the application data\": it removes your license. / Baru: color grading, animasi subscribe, 8D surround + badge 8D, cadangan kunci lisensi; memperbaiki aplikasi yang tidak bisa dibuka di prosesor Intel lama (generasi 2/3). Saat update, jangan centang \"Delete the application data\": lisensi akan terhapus.",
   "url": "https://github.com/RatuMelodi/ratu-melody-visualizer-releases/releases/latest"
 }
