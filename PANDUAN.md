@@ -52,7 +52,7 @@ Saat pertama dibuka, aplikasi menawarkan **Download AI models** (±1,7 GB). Mode
 
 1. Di aplikasi, klik tombol **Free trial: … days left** di pojok kanan atas.
 2. Pada bagian **Device Code**, klik **Copy**. Bentuknya seperti `H9TQ-Y3F8-ZMTC-3QGC`.
-3. Lakukan pembelian, lalu kirim **Device Code** itu beserta bukti pembayaran ke Ratu Melodi (lihat [Bantuan](#9-bantuan)).
+3. Lakukan pembelian, lalu kirim **Device Code** itu beserta bukti pembayaran ke Ratu Melodi (lihat [Bantuan](#10-bantuan)).
 4. Anda akan menerima **kunci lisensi**: teks panjang yang diawali `RMVP1.`
 5. Salin **seluruh** teks itu, tempel di kotak **Paste the license key**, lalu klik **Activate**.
 6. Tombol di pojok kanan atas berubah menjadi **Licensed**. Watermark dan batas 720p hilang.
@@ -80,12 +80,12 @@ Simpan kunci lisensi dan nomor serinya di tempat yang aman. Nomor seri (`RM-…`
 Tab ada di sisi kiri. Urutan kerja yang disarankan dari atas ke bawah:
 
 1. **Project**: pilih ukuran dan bentuk video dan, kalau mau cepat, pilih salah satu **Built-in templates** sebagai titik awal.
-2. **Audio**: klik **+ Add songs…**. Pilih satu lagu, atau beberapa sekaligus untuk membuat playlist. Format: MP3, WAV, FLAC, M4A, AAC, OGG. Urutan lagu bisa digeser.
+2. **Audio**: klik **+ Add songs…**. Pilih satu lagu, atau beberapa sekaligus untuk membuat playlist. Format: MP3, WAV, FLAC, M4A, AAC, OGG, OPUS, dan juga file video (MP4, MOV, MKV, WEBM) yang suaranya dipakai sebagai lagu. Urutan lagu bisa digeser. Membuat video tanpa lagu? Lihat bagian 5.
 3. **Background**: pilih gambar atau video latar. Video yang lebih pendek dari lagu diulang otomatis (ada pilihan ulang halus maju-mundur). Untuk playlist bisa memakai beberapa video/gambar bergantian.
 4. **Visualizer**: pilih gaya, warna, bentuk, posisi, dan seberapa kuat reaksinya terhadap dentuman.
-5. **Overlay**: tambahkan pemutar "Now Playing", judul lagu, bingkai kamera, partikel (bintang, salju, bokeh, dan lain-lain), teks, gambar, GIF, atau video efek.
-6. **Lyrics**: tampilkan lirik (lihat bagian 5).
-7. **Export**: simpan menjadi MP4 (lihat bagian 7).
+5. **Overlay**: tambahkan pemutar "Now Playing", judul lagu, bingkai kamera, partikel (bintang, salju, bokeh, dan lain-lain), efek ambience (api, lilin, uap kopi, hujan di kaca), teks, gambar, GIF, atau video efek.
+6. **Lyrics**: tampilkan lirik (lihat bagian 6).
+7. **Export**: simpan menjadi MP4 (lihat bagian 8).
 
 Tips:
 
@@ -94,9 +94,73 @@ Tips:
 - Simpan pekerjaan dengan **Save**. File project berakhiran `.mvp`. Jangan memindahkan atau mengganti nama file lagu/video yang dipakai project; kalau terlanjur, aplikasi akan meminta Anda menunjukkan lokasi barunya.
 - **↶ / ↷** di kanan atas untuk membatalkan dan mengulang perubahan.
 
+### Logo channel bulat yang berputar
+
+Pilih overlay gambar (**Overlay** → **+ Image**), lalu buka bagian **Shape & spin**:
+
+- **Shape** → **Circle**: gambar dipotong bulat. Cocok untuk logo yang punya latar kotak. Ada juga **Rounded corners**.
+- **Zoom**: bila setelah dipotong masih tersisa cincin warna latar, naikkan sedikit (misalnya 110–120%).
+- **Border**: garis tepi bulat, tebal dan warnanya bisa diatur.
+- **Spin**: logo berputar terus. Nilai dalam putaran per menit; 6–10 terlihat tenang. Nilai minus = berlawanan arah jarum jam.
+
+Untuk tampilan seperti video musik populer: pilih visualizer bulat (**Radial bars**, **Pulse ring**, atau **Particle circle**), letakkan logo bulat tepat di tengahnya, lalu di **Beat reaction** pilih **Kick** supaya logo ikut berdenyut.
+
+### Video klip berlagu sebagai latar
+
+Ingin memakai video klip yang sudah ada lagunya, lalu menambahkan lirik dan visualizer?
+
+1. **Background** → **Video**: pilih video itu. **Jangan** centang **Use the video's own sound**.
+2. **Audio** → **+ Add songs…**: tambahkan **video yang sama**. Dari sinilah lirik, visualizer, dan suara diambil.
+
+Lirik, visualizer, dan denyut ketukan hanya membaca lagu di tab **Audio**. Bila kedua tempat sama-sama mengeluarkan suara, lagunya terdengar dobel (aplikasi memberi peringatan).
+
 ---
 
-## 5. Lirik
+## 5. Audio, suasana, dan konten tanpa lagu
+
+Semua pengaturan di bawah ada di tab **Audio** dan berlaku untuk preview maupun hasil export.
+
+### Audio mixer
+
+Centang **Mixer on (EQ, reverb, limiter)**. Lepas centangnya kapan saja untuk membandingkan dengan suara asli.
+
+- **Preset**: Bass boost, Vocal clarity, Warm, Bright, Lo-fi, Small room, Concert hall, Dreamy. Setelah memilih preset, slider tetap bisa diubah.
+- **EQ**: **Bass (100 Hz)**, **Mid** (dengan **Mid frequency**), **Treble (10 kHz)**.
+- **Reverb**: **Room size** (besar ruangan) dan **Dry / wet** (seberapa banyak gema).
+- **Limiter (louder, no clipping)**: membuat musik lebih keras tanpa pecah. **Input gain** menaikkan volume, **Ceiling** batas tertingginya.
+- **Even out song volume**: tiap lagu diukur sekali, lalu volumenya disamakan supaya playlist tidak naik-turun. Pilih **Target loudness** (YouTube memakai sekitar −14 LUFS).
+
+### Lo-fi
+
+Centang **Lo-fi effect on** untuk suara seperti kaset atau piringan hitam tua:
+
+- **Muffle**: nada tinggi dan bass dalam dikurangi, seperti radio lama.
+- **Wobble (wow & flutter)**: nada naik-turun pelan seperti pita kaset yang agak melar. Paling terasa pada vokal dan piano.
+- **Vinyl crackle**: bunyi kresek halus piringan hitam.
+
+Efek ini untuk musik. Pada suara hujan atau suara alam saja, bedanya hampir tidak terdengar.
+
+### Ambience sounds
+
+Suara latar yang diulang terus di bawah musik, juga di jeda antarlagu: **Rain**, **Thunder (distant)**, **Fire crackle**, **Wind**, **Ocean waves**, **Stream / brook**, **Wind chimes**, **Birds**, **Firecrackers**, **Vinyl crackle**. Pilih lewat **+ Choose…**, atur **Volume** masing-masing, dan boleh ditumpuk (misalnya hujan + petir). Semua suara dibuat oleh aplikasi sendiri, jadi aman dipakai di YouTube.
+
+### Efek ambience (gambar)
+
+Di **Overlay** → **+ Ambience**: **Fireplace fire**, **Candle flame**, **Coffee steam**, **Smoke**, **Rain on glass**, **Flickering light**. Geser kotaknya ke tempat yang pas di gambar latar (misalnya bagian bawah kotak di sumbu lilin atau di bibir cangkir). Kekuatan, kecepatan, kedipan, cahaya, warna, dan reaksi ketukan bisa diatur. Cocok dipadukan dengan suara ambience yang sesuai.
+
+### Konten tanpa lagu (ASMR, suara alam, relaksasi)
+
+1. Jangan tambahkan lagu. Di tab **Audio**, bagian **No songs? Video length**, isi panjang video (misalnya 1 jam).
+2. Tambahkan **Ambience sounds** dan/atau suara asli video latar (di bawah).
+3. Export seperti biasa.
+
+### Suara asli video latar
+
+**Background** → **Video** → centang **Use the video's own sound** dan atur volumenya. Rekaman pendek (misalnya hujan 2 menit dari HP) diulang mulus bersama gambarnya sampai video selesai. Suaranya ikut diproses Mixer dan 8D.
+
+---
+
+## 6. Lirik
 
 Cara kerjanya: Anda memberi **teks lirik**, aplikasi mencari sendiri **kapan** tiap kata dinyanyikan. Hasil paling akurat didapat bila teksnya dari Anda.
 
@@ -174,7 +238,7 @@ Selama teks lirik bisa didapat, pakai cara utama.
 
 ---
 
-## 6. Batch render
+## 7. Batch render
 
 Untuk yang mengelola channel playlist: membuat beberapa video sekaligus dari kumpulan lagu yang sama.
 
@@ -188,7 +252,7 @@ Perlu minimal 2 lagu. Makin banyak lagu, makin berbeda urutan antar video.
 
 ---
 
-## 7. Export
+## 8. Export
 
 1. Buka tab **Export**.
 2. **Range**: seluruh video atau sebagian saja (berguna untuk tes cepat).
@@ -201,10 +265,12 @@ Catatan:
 - Sambungkan charger laptop; mode hemat baterai memperlambat export.
 - Ukuran lebih tinggi butuh waktu lebih lama dan file lebih besar. Untuk YouTube, 1080p sudah cukup.
 - Versi trial: maksimal 720p dan ada watermark.
+- **Simpan hasil export ke SSD.** Menyimpan ke harddisk biasa (HDD), flashdisk, atau folder OneDrive yang sedang menyinkronkan bisa membuat export jauh lebih lambat.
+- Setelah export selesai, aplikasi menampilkan kecepatan rata-rata dan kartu grafis yang dipakai. Tombol **Copy speed details** menyalin rinciannya; kirimkan ke kami bila export terasa lambat.
 
 ---
 
-## 8. Pembaruan aplikasi
+## 9. Pembaruan aplikasi
 
 Bila ada versi baru, tombol **Update available** muncul di bagian atas aplikasi. Klik tombol itu, unduh installer barunya, lalu jalankan. Tidak perlu uninstall versi lama; project, lisensi, dan model AI tetap ada.
 
@@ -212,7 +278,7 @@ Pembeli pre-release mendapat semua pembaruan fitur tanpa biaya tambahan selama l
 
 ---
 
-## 9. Bantuan
+## 10. Bantuan
 
 Kirim pesan ke Ratu Melodi di Threads: <https://www.threads.com/@ratumelodi155>
 
@@ -229,5 +295,8 @@ Supaya cepat dibantu, sertakan: versi aplikasi, apa yang Anda lakukan, dan tangk
 | Lirik meleset di beberapa baris | Pastikan teks sama dengan yang dinyanyikan (reff ditulis berulang). Perbaiki barisnya dengan klik dua kali, atau geser di timeline. |
 | Lirik meleset semua dengan selisih yang sama | Geser **Timing offset**. |
 | "Missing media files" saat membuka project | File lagu/video dipindah atau diganti nama. Tunjukkan lokasi barunya. |
-| Export lambat | Tutup aplikasi lain, sambungkan charger, coba ukuran 1080p atau 720p. |
+| Export lambat | Simpan ke SSD, tutup aplikasi lain, sambungkan charger, coba ukuran 1080p atau 720p. |
+| Pesan "running without graphics acceleration" atau **Microsoft Basic Display Adapter** | Driver grafis belum terpasang, jadi export sangat lambat. Klik kanan Start → **Device Manager** → **Display adapters**. Pasang driver lewat **Settings** → **Windows Update** → **Advanced options** → **Optional updates** → **Driver updates**, atau unduh dari situs pembuat laptop/PC. Restart, lalu buka aplikasi lagi. |
+| Unduhan model AI gagal ("timeout" atau "certificate") | Aplikasi sudah mencoba ulang sendiri. Bila tetap gagal, unduh file lewat tautan yang ditampilkan di browser, lalu pakai **Import from a folder…**. |
+| Lagu terdengar dobel | Video yang sama dipakai di **Background** dengan **Use the video's own sound** dan di tab **Audio**. Matikan salah satunya. |
 | Aplikasi terkunci setelah trial | Masukkan kunci lisensi. Project Anda tetap aman. |
