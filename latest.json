@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
-  "notes": "New: color grading, subscribe animation, 8D surround + 8D badge, license key backup; fixes the app not opening on older Intel processors (2nd/3rd gen). When updating, do not tick \"Delete the application data\": it removes your license. / Baru: color grading, animasi subscribe, 8D surround + badge 8D, cadangan kunci lisensi; memperbaiki aplikasi yang tidak bisa dibuka di prosesor Intel lama (generasi 2/3). Saat update, jangan centang \"Delete the application data\": lisensi akan terhapus.",
+  "version": "1.2.1",
+  "notes": "New: audio mixer, lo-fi effect, ambience sounds and effects, videos without songs, background video sound, round spinning logo, faster export; fixes for AI model downloads (antivirus/timeouts) and sideways phone videos. When updating, do not tick \"Delete the application data\". / Baru: audio mixer, efek lo-fi, suara dan efek ambience, video tanpa lagu, suara video latar, logo bulat berputar, export lebih cepat; perbaikan unduhan model AI (antivirus/timeout) dan video HP miring. Saat update, jangan centang \"Delete the application data\".",
   "url": "https://github.com/RatuMelodi/ratu-melody-visualizer-releases/releases/latest"
 }
